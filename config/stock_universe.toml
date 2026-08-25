@@ -282,6 +282,16 @@ security_type = "common_stock"
 active = true
 
 [[stocks]]
+ticker = "CRCL"
+company_name = "Circle Internet Group, Inc. Class A"
+themes = ["crypto_equities"]
+sector = "Financials"
+benchmarks = ["BITQ"]
+exchange = "NYSE"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
 ticker = "MSTR"
 company_name = "Strategy Inc Class A"
 themes = ["crypto_equities"]
@@ -354,6 +364,16 @@ active = true
 [[stocks]]
 ticker = "RKLB"
 company_name = "Rocket Lab Corporation"
+themes = ["space"]
+sector = "Industrials"
+benchmarks = ["UFO"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "SPCX"
+company_name = "Space Exploration Technologies Corp. Class A"
 themes = ["space"]
 sector = "Industrials"
 benchmarks = ["UFO"]
