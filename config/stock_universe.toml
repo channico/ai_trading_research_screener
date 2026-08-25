@@ -1,0 +1,462 @@
+schema_version = 1
+as_of_date = "2026-08-25"
+liquidity_screen_month = "2026-07"
+minimum_average_daily_share_volume = 500000
+trading_days_in_screen_month = 22
+
+[[themes]]
+id = "ai_software"
+name = "AI and software"
+benchmark = "QQQ"
+
+[[themes]]
+id = "semiconductors"
+name = "Semiconductors"
+benchmark = "SMH"
+
+[[themes]]
+id = "crypto_equities"
+name = "Crypto-related equities"
+benchmark = "BITQ"
+
+[[themes]]
+id = "space"
+name = "Space"
+benchmark = "UFO"
+
+[[themes]]
+id = "quantum"
+name = "Quantum"
+benchmark = "QTUM"
+
+[[benchmarks]]
+ticker = "SPY"
+name = "State Street SPDR S&P 500 ETF Trust"
+exchange = "NYSE_ARCA"
+active = true
+
+[[benchmarks]]
+ticker = "QQQ"
+name = "Invesco QQQ Trust, Series 1"
+exchange = "NASDAQ"
+active = true
+
+[[benchmarks]]
+ticker = "IWM"
+name = "iShares Russell 2000 ETF"
+exchange = "NYSE_ARCA"
+active = true
+
+[[benchmarks]]
+ticker = "SMH"
+name = "VanEck Semiconductor ETF"
+exchange = "NASDAQ"
+active = true
+
+[[benchmarks]]
+ticker = "BITQ"
+name = "Bitwise Crypto Industry Innovators ETF"
+exchange = "NYSE_ARCA"
+active = true
+
+[[benchmarks]]
+ticker = "UFO"
+name = "Procure Space ETF"
+exchange = "NASDAQ"
+active = true
+
+[[benchmarks]]
+ticker = "QTUM"
+name = "Defiance Quantum ETF"
+exchange = "NASDAQ"
+active = true
+
+[[stocks]]
+ticker = "MSFT"
+company_name = "Microsoft Corporation"
+themes = ["ai_software", "quantum"]
+sector = "Information Technology"
+benchmarks = ["QQQ", "QTUM"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "GOOGL"
+company_name = "Alphabet Inc. Class A"
+themes = ["ai_software", "quantum"]
+sector = "Communication Services"
+benchmarks = ["QQQ", "QTUM"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "AMZN"
+company_name = "Amazon.com, Inc."
+themes = ["ai_software"]
+sector = "Consumer Discretionary"
+benchmarks = ["QQQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "META"
+company_name = "Meta Platforms, Inc. Class A"
+themes = ["ai_software"]
+sector = "Communication Services"
+benchmarks = ["QQQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "ORCL"
+company_name = "Oracle Corporation"
+themes = ["ai_software"]
+sector = "Information Technology"
+benchmarks = ["QQQ"]
+exchange = "NYSE"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "CRM"
+company_name = "Salesforce, Inc."
+themes = ["ai_software"]
+sector = "Information Technology"
+benchmarks = ["QQQ"]
+exchange = "NYSE"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "NOW"
+company_name = "ServiceNow, Inc."
+themes = ["ai_software"]
+sector = "Information Technology"
+benchmarks = ["QQQ"]
+exchange = "NYSE"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "PLTR"
+company_name = "Palantir Technologies Inc. Class A"
+themes = ["ai_software"]
+sector = "Information Technology"
+benchmarks = ["QQQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "SNOW"
+company_name = "Snowflake Inc."
+themes = ["ai_software"]
+sector = "Information Technology"
+benchmarks = ["QQQ"]
+exchange = "NYSE"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "DDOG"
+company_name = "Datadog, Inc. Class A"
+themes = ["ai_software"]
+sector = "Information Technology"
+benchmarks = ["QQQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "NVDA"
+company_name = "NVIDIA Corporation"
+themes = ["ai_software", "semiconductors"]
+sector = "Information Technology"
+benchmarks = ["QQQ", "SMH"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "AMD"
+company_name = "Advanced Micro Devices, Inc."
+themes = ["semiconductors"]
+sector = "Information Technology"
+benchmarks = ["SMH"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "AVGO"
+company_name = "Broadcom Inc."
+themes = ["semiconductors"]
+sector = "Information Technology"
+benchmarks = ["SMH"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "INTC"
+company_name = "Intel Corporation"
+themes = ["semiconductors"]
+sector = "Information Technology"
+benchmarks = ["SMH"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "QCOM"
+company_name = "QUALCOMM Incorporated"
+themes = ["semiconductors"]
+sector = "Information Technology"
+benchmarks = ["SMH"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "MU"
+company_name = "Micron Technology, Inc."
+themes = ["semiconductors"]
+sector = "Information Technology"
+benchmarks = ["SMH"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "MRVL"
+company_name = "Marvell Technology, Inc."
+themes = ["semiconductors"]
+sector = "Information Technology"
+benchmarks = ["SMH"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "ARM"
+company_name = "Arm Holdings plc"
+themes = ["semiconductors"]
+sector = "Information Technology"
+benchmarks = ["SMH"]
+exchange = "NASDAQ"
+security_type = "adr"
+active = true
+
+[[stocks]]
+ticker = "TSM"
+company_name = "Taiwan Semiconductor Manufacturing Company Limited"
+themes = ["semiconductors"]
+sector = "Information Technology"
+benchmarks = ["SMH"]
+exchange = "NYSE"
+security_type = "adr"
+active = true
+
+[[stocks]]
+ticker = "ASML"
+company_name = "ASML Holding N.V."
+themes = ["semiconductors"]
+sector = "Information Technology"
+benchmarks = ["SMH"]
+exchange = "NASDAQ"
+security_type = "ordinary_share"
+active = true
+
+[[stocks]]
+ticker = "COIN"
+company_name = "Coinbase Global, Inc. Class A"
+themes = ["crypto_equities"]
+sector = "Financials"
+benchmarks = ["BITQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "MSTR"
+company_name = "Strategy Inc Class A"
+themes = ["crypto_equities"]
+sector = "Information Technology"
+benchmarks = ["BITQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "MARA"
+company_name = "MARA Holdings, Inc."
+themes = ["crypto_equities"]
+sector = "Information Technology"
+benchmarks = ["BITQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "RIOT"
+company_name = "Riot Platforms, Inc."
+themes = ["crypto_equities"]
+sector = "Information Technology"
+benchmarks = ["BITQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "CLSK"
+company_name = "CleanSpark, Inc."
+themes = ["crypto_equities"]
+sector = "Information Technology"
+benchmarks = ["BITQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "IREN"
+company_name = "IREN Limited"
+themes = ["crypto_equities"]
+sector = "Information Technology"
+benchmarks = ["BITQ"]
+exchange = "NASDAQ"
+security_type = "ordinary_share"
+active = true
+
+[[stocks]]
+ticker = "CIFR"
+company_name = "Cipher Digital Inc."
+themes = ["crypto_equities"]
+sector = "Information Technology"
+benchmarks = ["BITQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "HOOD"
+company_name = "Robinhood Markets, Inc. Class A"
+themes = ["crypto_equities"]
+sector = "Financials"
+benchmarks = ["BITQ"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "RKLB"
+company_name = "Rocket Lab Corporation"
+themes = ["space"]
+sector = "Industrials"
+benchmarks = ["UFO"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "ASTS"
+company_name = "AST SpaceMobile, Inc. Class A"
+themes = ["space"]
+sector = "Communication Services"
+benchmarks = ["UFO"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "LUNR"
+company_name = "Intuitive Machines, Inc. Class A"
+themes = ["space"]
+sector = "Industrials"
+benchmarks = ["UFO"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "RDW"
+company_name = "Redwire Corporation"
+themes = ["space"]
+sector = "Industrials"
+benchmarks = ["UFO"]
+exchange = "NYSE"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "BKSY"
+company_name = "BlackSky Technology Inc. Class A"
+themes = ["space"]
+sector = "Industrials"
+benchmarks = ["UFO"]
+exchange = "NYSE"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "PL"
+company_name = "Planet Labs PBC Class A"
+themes = ["space"]
+sector = "Industrials"
+benchmarks = ["UFO"]
+exchange = "NYSE"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "IONQ"
+company_name = "IonQ, Inc."
+themes = ["quantum"]
+sector = "Information Technology"
+benchmarks = ["QTUM"]
+exchange = "NYSE"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "RGTI"
+company_name = "Rigetti Computing, Inc."
+themes = ["quantum"]
+sector = "Information Technology"
+benchmarks = ["QTUM"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "QBTS"
+company_name = "D-Wave Quantum Inc."
+themes = ["quantum"]
+sector = "Information Technology"
+benchmarks = ["QTUM"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "QUBT"
+company_name = "Quantum Computing Inc."
+themes = ["quantum"]
+sector = "Information Technology"
+benchmarks = ["QTUM"]
+exchange = "NASDAQ"
+security_type = "common_stock"
+active = true
+
+[[stocks]]
+ticker = "IBM"
+company_name = "International Business Machines Corporation"
+themes = ["quantum"]
+sector = "Information Technology"
+benchmarks = ["QTUM"]
+exchange = "NYSE"
+security_type = "common_stock"
+active = true

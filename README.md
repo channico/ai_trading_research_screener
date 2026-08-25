@@ -14,6 +14,8 @@ Deterministic Python code—not an AI model—will own calculations, timestamps,
 
 ```text
 .
+├── config/
+│   └── stock_universe.toml  # Version-controlled themes and securities
 ├── data/
 │   ├── sample/       # Small, redistributable fixtures that may be committed
 │   ├── raw/          # Local provider downloads; ignored by Git
@@ -53,6 +55,14 @@ The existing `.venv` may be reused. Never commit `.env` or real API credentials.
 - Do not install a package without documenting it in `pyproject.toml`.
 
 No market-data or news provider is selected yet, so the example configuration uses provider-neutral placeholders.
+
+## Validate the initial universe
+
+The selection policy, format, sources, and subjective choices are documented in [`docs/stock-universe.md`](docs/stock-universe.md).
+
+```bash
+python -m ai_trading_research_screener.universe config/stock_universe.toml
+```
 
 ## Run the tests
 
