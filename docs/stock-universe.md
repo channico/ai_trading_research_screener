@@ -37,6 +37,8 @@ Primary verification sources:
 - [Nasdaq Trader current Symbol Lookup](https://www.nasdaqtrader.com/Trader.aspx?id=symbollookup)
 - [Nasdaq Trader monthly volume statistics by symbol](https://www.nasdaqtrader.com/trader.aspx?ID=marketsharedaily)
 - [SEC company ticker and exchange associations](https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data)
+- [Circle Internet Group SEC filing confirming CRCL and its NYSE listing](https://www.sec.gov/Archives/edgar/data/1876042/000187604226000205/crcl-20260629.htm)
+- [Space Exploration Technologies SEC filing confirming SPCX and its Nasdaq listing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026043288/spaceexplorationtechnologi.htm)
 
 No downloaded Nasdaq or SEC source dataset is committed to this repository.
 
@@ -44,8 +46,8 @@ No downloaded Nasdaq or SEC source dataset is committed to this repository.
 
 - **AI and software:** combines large AI platforms with liquid enterprise software and observability companies. NVIDIA is intentionally shared with semiconductors. Smaller companies with indirect AI branding were excluded.
 - **Semiconductors:** covers designers, manufacturers, memory, connectivity, and semiconductor equipment. Liquid US-listed depositary receipts are allowed even when the issuer is not US-domiciled.
-- **Crypto-related equities:** includes a liquid exchange, brokerage exposure, a bitcoin-treasury company, and listed miners. Spot crypto and crypto ETFs are excluded because this task covers equities.
-- **Space:** favors liquid, comparatively direct space infrastructure, launch, satellite, and geospatial exposure. Diversified defense primes are excluded because space is not their dominant exposure.
+- **Crypto-related equities:** includes a liquid exchange, stablecoin infrastructure, brokerage exposure, a bitcoin-treasury company, and listed miners. Spot crypto and crypto ETFs are excluded because this task covers equities.
+- **Space:** favors liquid, comparatively direct space infrastructure, launch, satellite, and geospatial exposure. SPCX is included because Space Exploration Technologies became publicly traded in June 2026, but its short public history remains a limitation. Diversified defense primes are excluded because space is not their dominant exposure.
 - **Quantum:** includes four liquid pure-play quantum companies plus IBM, Microsoft, and Alphabet because they operate material quantum-computing programs. Quantum-security vendors and less-liquid early-stage names are excluded.
 - Cross-theme membership is intentional. It prevents the configuration from pretending that companies such as Microsoft, Alphabet, and NVIDIA have only one relevant exposure.
 

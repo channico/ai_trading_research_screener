@@ -18,7 +18,7 @@ UNIVERSE_PATH = Path(__file__).parents[1] / "config" / "stock_universe.toml"
 def test_initial_universe_meets_aits_7_contract() -> None:
     universe = load_universe(UNIVERSE_PATH)
 
-    assert len(universe["stocks"]) == 39
+    assert len(universe["stocks"]) == 41
     assert {theme["id"] for theme in universe["themes"]} == EXPECTED_THEME_IDS
     assert REQUIRED_MARKET_BENCHMARKS <= {
         benchmark["ticker"] for benchmark in universe["benchmarks"]
