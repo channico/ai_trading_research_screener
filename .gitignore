@@ -1,0 +1,46 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+
+# Local Python environments
+.venv/
+venv/
+env/
+.python-version
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+junit.xml
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Generated market and research data
+data/raw/
+data/processed/
+data/generated/
+
+# Logs and local runtime output
+*.log
+logs/
+output/
+outputs/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
