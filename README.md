@@ -6,7 +6,11 @@ The project is a research and scenario-planning aid. It does not place orders, g
 
 ## Current scope
 
-AITS-14 establishes the repository and local development environment. Later Jira tasks will select data providers and implement deterministic metrics, rankings, evidence collection, and grounded AI explanations.
+AITS-14 establishes the repository and local development environment. AITS-7
+defines the initial stock universe, and AITS-9 adds provider-independent data
+contracts plus a synthetic demo adapter. Later Jira tasks will implement live
+provider validation, deterministic metrics, rankings, evidence collection, and
+grounded AI explanations.
 
 Deterministic Python code—not an AI model—will own calculations, timestamps, filters, and ranking. AI output may explain supplied evidence and uncertainty, but must not silently alter calculated results.
 
@@ -54,7 +58,17 @@ The existing `.venv` may be reused. Never commit `.env` or real API credentials.
 - Re-run `python -m pip install -e ".[dev]"` after dependency changes.
 - Do not install a package without documenting it in `pyproject.toml`.
 
-No market-data or news provider is selected yet, so the example configuration uses provider-neutral placeholders.
+The AITS-8 validation plan prefers read-only IBKR market data, Massive Basic
+News, and the existing Wall Street Horizon scheduled-event entitlement. Complete
+live integrations remain out of scope here, so the example configuration keeps
+provider-neutral, empty environment placeholders and never stores credentials.
+
+## Data-provider boundary
+
+Application code consumes the normalized contracts in
+`ai_trading_research_screener.providers`; provider SDK objects and credentials
+remain inside adapters. See [`docs/provider-contracts.md`](docs/provider-contracts.md)
+for responsibilities, timestamp conventions, data states, and current limits.
 
 ## Validate the initial universe
 
